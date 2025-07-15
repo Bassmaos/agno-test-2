@@ -38,7 +38,7 @@ finance_agent = Agent(
 )
 
 search_agent = Agent(
-    name="Agent",
+    name="Search Agent",
     model=OpenAIChat(id="gpt-4o"),
     tools=[SerpApiTools()],
     instructions=["Use search to find information"],
