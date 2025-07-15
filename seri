@@ -1,0 +1,5 @@
+from agno.agent import Agent
+from agno.tools.googlesearch import GoogleSearchTools
+
+agent = Agent(tools=[GoogleSearchTools()])
+agent.print_response("Whats happening in the USA?", markdown=True)
